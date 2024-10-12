@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "CoffeeTechORG.IdentityandAccessManagementContext.Interfaces.REST.UsersController",
+    "Method": "CreatedUser",
+    "RelativePath": "api/v1/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resource",
+        "Type": "CoffeeTechORG.IdentityandAccessManagementContext.Interfaces.REST.Resources.CreateUserResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoffeeTechORG.IdentityandAccessManagementContext.Interfaces.REST.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/v1/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoffeeTechORG.IdentityandAccessManagementContext.Interfaces.REST.UsersController",
+    "Method": "GetUserById",
+    "RelativePath": "api/v1/users/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoffeeTechORG.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "weather-forecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CoffeeTechORG.WeatherForecast, CoffeeTechORG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
